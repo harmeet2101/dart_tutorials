@@ -11,4 +11,20 @@ class Third {
   String toString() {
     return 'Third{_id: $_id, _name: $_name}';
   }
+
+  double? calc(double v1, double v2, String action) {
+
+    switch (action) {
+      case 'add':
+        return v1 + v2;
+      case 'sub':
+        return v1 - v2;
+      case 'multi':
+        return v1 * v2;
+      case 'div':
+        return v1 % v2;
+      default:
+        return null;
+    }
+  }
 }

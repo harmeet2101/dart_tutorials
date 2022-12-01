@@ -7,7 +7,8 @@ class Third {
 
   const Third(this._id, this._name);
 
-  String showDetails() {
-    return 'id $_id Name $_name';
+  @override
+  String toString() {
+    return 'Third{_id: $_id, _name: $_name}';
   }
 }

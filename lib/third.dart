@@ -22,7 +22,7 @@ class Third {
       case 'multi':
         return v1 * v2;
       case 'div':
-        return v1 % v2;
+        return v1 / v2;
       default:
         return null;
     }

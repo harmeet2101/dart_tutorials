@@ -1,0 +1,6 @@
+class Temp{
+
+}
+void main(){
+
+}

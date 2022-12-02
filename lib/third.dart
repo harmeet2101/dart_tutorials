@@ -23,6 +23,8 @@ class Third {
         return v1 * v2;
       case 'div':
         return v1 / v2;
+      case 'mod':
+        return v1 % v2;
       default:
         return null;
     }

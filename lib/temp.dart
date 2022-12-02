@@ -1,10 +1,6 @@
-class Temp{
+class Temp {
   final int? referenceId;
   const Temp({required this.referenceId});
 }
-void main(){
 
-  
-  
-  
-}
+void main() {}

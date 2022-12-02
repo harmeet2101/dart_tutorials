@@ -20,13 +20,4 @@ void main() {
   });
   xyz = 10;
   print('late var $xyz');
-  //assert(v2!=null);
-}
-
-void m1() {
-  int lineCount;
-  if (z > 10) {
-    lineCount = 1;
-    lineCount++;
-  }
 }
